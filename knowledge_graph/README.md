@@ -62,4 +62,9 @@
 
 #### 监督学习
 
-ONGOING
+* pipeline方法。采用Classification by Ranking CNN(CR-CNN)模型，可以学习深度学习在关系抽取中的应用方式，如position embeding 这种。[Classifying Relations by Ranking with Convolutional Neural Networks](https://www.jianguoyun.com/p/DeKJe7IQq_6CBxjQyHQ)    
+* 关系抽取中的特征介绍，包含三大类(contextual and lexical features、 nominal rol affiliation、pre-existion relation features)八小类(lexical features、hypernyms from wordNet、dependency parse、PropBank parse、FrameNet parse、nominalization、predicates from TextRunner、nominal similarity derived from the Google N-Gram data set)特征：[UTD Classifying Semantic Relations by CombiningLexical and Semantic Resources](https://www.jianguoyun.com/p/DWX0NyMQq_6CBxjwyHQ)    
+* Pipeline 方法，基于Attention CNN模型 [Relation Classification via Multi-Level Attention CNNs](https://www.jianguoyun.com/p/DbmG2l8Qq_6CBxiDyXQ)    
+* Pipeline 方法，基于Attention-BLSTM模型 [Attention-Based Bidirectional Long Short-Term Memory Networks forRelation Classification](https://www.jianguoyun.com/p/DXJaqLAQq_6CBxiNyXQ)    
+* Joint 方法，基于 LSTM-RNN模型 [End-to-End Relation Extraction using LSTMson Sequences and Tree Structures](https://www.jianguoyun.com/p/DWT-a9YQq_6CBxiQyXQ)    
+* 远程监督与深度学习结合，采用注意力机制取筛选有效实例[Distant Supervision for Relation Extraction with Sentence-level Attention andEntity Descriptions](https://www.jianguoyun.com/p/DYMywjYQq_6CBxiUyXQ)
