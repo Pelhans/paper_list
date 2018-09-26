@@ -2,6 +2,8 @@
 
 在学习过程中看了很多paper或教程，都存到了自己的文件夹里，但放久了自己都忘了哪篇对应哪个算法了。因此整理起来放到这里。这个列表会随着我的学习不断更新。
 
+[Pelhans/paper_list](https://github.com/Pelhans/paper_list/tree/master/knowledge_graph)
+
 ## 知识图谱介绍
 
 * [知识图谱入门笔记](https://zhuanlan.zhihu.com/c_211846834)    
@@ -68,3 +70,17 @@
 * Pipeline 方法，基于Attention-BLSTM模型 [Attention-Based Bidirectional Long Short-Term Memory Networks forRelation Classification](https://www.jianguoyun.com/p/DXJaqLAQq_6CBxiNyXQ)    
 * Joint 方法，基于 LSTM-RNN模型 [End-to-End Relation Extraction using LSTMson Sequences and Tree Structures](https://www.jianguoyun.com/p/DWT-a9YQq_6CBxiQyXQ)    
 * 远程监督与深度学习结合，采用注意力机制取筛选有效实例[Distant Supervision for Relation Extraction with Sentence-level Attention andEntity Descriptions](https://www.jianguoyun.com/p/DYMywjYQq_6CBxiUyXQ)
+
+#### 事件抽取
+
+* 对时间抽取做了一个综合的介绍，将其分为元事件抽取和主题事件抽取。其中元事件表示一个动作的发生或状态的变化。主题事件包括一类核心事件或活动以及所有与之直接相关的事件和活动，可以由多个元事件组成。对于元事件抽取包含基于模式匹配的元事件抽取和基于机器学习的元事件抽取。对于主题事件抽取，包含基于事件框架的主题事件抽取和基于本体的主题事件抽取两种。它的这个分类和我之前接触到的不大一样，仅供参考。[事件抽取技术研究综述 2013 年](https://www.jianguoyun.com/p/DZPjG50Qq_6CBxjttnU)    
+* 介绍神经网络在事件抽取方便的综述文章。同时对事件抽取的定义和ACE任务做了简单介绍。其中事件抽取的子任务包含触发词识别、事件类型分类、论元识别、角色分类。而触发词识别和事件类型分类又可以归结为事件识别。论元角色识别和角色分类可归为论元角色分类。根据学习方式的不同，可以将事件抽取分为基于流水线模型(先事件识别，后论元角色识别,论元角色分类的输入是上一步识别出的触发词和所有候选实体)的事件抽取和基于联合模型的事件抽取。而后，对于ACE任务，事件识别变为基于词的34类多元分类任务，角色分类变为基于词的36类多元分类任务。[神经网络事件抽取技术综述](https://www.jianguoyun.com/p/DVY3Kj8Qq_6CBxjstnUi)    
+* [The stages of event extraction](https://www.jianguoyun.com/p/DbktYawQq_6CBxiXuXU)    
+* [Refining Event Extraction through Cross-document Inference](https://www.jianguoyun.com/p/DVPwJs8Qq_6CBxiauXU)    
+* [Joint Event Extraction via Structured Prediction with Global Features](https://www.jianguoyun.com/p/DbxjxvYQq_6CBxibuXU)    
+* [Incremental Joint Extraction of Entity Mentions and Relations](https://www.jianguoyun.com/p/DdNlTPIQq_6CBxiguXU)    
+* [Event Extraction via Dynamic Multi-Pooling Convolutional NeuralNetworks](https://www.jianguoyun.com/p/De8bVRMQq_6CBxiiuXU)    
+* [Leveraging FrameNet to Improve Automatic Event Detection](https://www.jianguoyun.com/p/DWoQMAIQq_6CBximuXU)    
+* [Improving Information Extraction by Acquiring External Evidence withReinforcement Learning](https://www.jianguoyun.com/p/DapzVB0Qq_6CBxisuXU)    
+
+
