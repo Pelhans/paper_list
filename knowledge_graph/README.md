@@ -1,5 +1,3 @@
-# Paper List
-
 在学习过程中看了很多paper或教程，都存到了自己的文件夹里，但放久了自己都忘了哪篇对应哪个算法了。因此整理起来放到这里。这个列表会随着我的学习不断更新。
 
 [Pelhans/paper_list](https://github.com/Pelhans/paper_list/tree/master/knowledge_graph)
@@ -47,6 +45,15 @@
 
 ### 关系抽取
 
+#### 关系抽取工具
+
+* DeepDive 官网介绍 http://deepdive.stanford.edu/    
+* DeepDive 开发者毕业论文 [DeepDive: A Data Management System for Automatic Knowledge Base Construction](https://www.jianguoyun.com/p/DS_fpSEQq_6CBxi76YIB)
+* [支持中文的 DeepDive ](http://www.openkg.cn/dataset/cn-deepdive) 并附有股权交易示例    
+* [Deepdive实战 抽取演员-电影间关系](https://zhuanlan.zhihu.com/p/46560845)    
+* [开放领域关系抽取 OpenIE ](http://knowitall.github.io/openie/) 包含 TextRunner等    
+* [ TextRunner 论文 ](https://www.researchgate.net/publication/220816876_TextRunner_Open_Information_Extraction_on_the_Web)    
+
 #### 无监督方法
 
 * 基于模板类的实体关系抽取，最简单的是[基于触发词的匹配](http://pelhans.com/2018/03/19/xiaoxiangkg-note3/#%E5%9F%BA%E4%BA%8E%E8%A7%A6%E5%8F%91%E8%AF%8D%E7%9A%84pattern)   
@@ -83,4 +90,38 @@
 * [Leveraging FrameNet to Improve Automatic Event Detection](https://www.jianguoyun.com/p/DWoQMAIQq_6CBximuXU)    
 * [Improving Information Extraction by Acquiring External Evidence withReinforcement Learning](https://www.jianguoyun.com/p/DapzVB0Qq_6CBxisuXU)    
 
+## 知识挖掘
 
+### 实体消岐与链接
+
+* [Entity Linking with a Knowledge Base Issues, Techniques and Solutions](https://www.jianguoyun.com/p/DQCU3uYQq_6CBxij44IB)    
+* [A Generative Entity-Mention Model for Linking Entities with Knowledge Base](https://www.jianguoyun.com/p/DU97ifkQq_6CBxiV44IB)    
+* [Graph Ranking for Collective Named Entity Disambiguation](https://www.jianguoyun.com/p/DUWnQ8wQq_6CBxiZ44IB)    
+* [Large-Scale Named Entity Disambiguation Based on Wikipedia Data](https://www.jianguoyun.com/p/DceRQiwQq_6CBxio44IB)    
+* [Learning Entity Representation for Entity Disambiguation](https://www.jianguoyun.com/p/DYyDuwYQq_6CBxis44IB)    
+* [Learning to Link Entities with Knowledge Base](https://www.jianguoyun.com/p/DVjbGp8Qq_6CBxiy44IB)    
+* [Leveraging Deep Neural Networks and Knowledge Graphs for Entity Disambiguation](https://www.jianguoyun.com/p/DdZG--EQq_6CBxi044IB)    
+* [Using TF-IDF to Determine Word Relevance in Document Queries](https://www.jianguoyun.com/p/DT5RToAQq_6CBxi444IB)
+
+### 知识规则挖掘
+
+* [关联规则挖掘综述 ](https://www.ixueshu.com/document/01650259a49c1f7a.html)    
+* [Random walk inference and learning in a large scale knowledge base](https://www.jianguoyun.com/p/DUs_NpoQq_6CBxiu5YIB)    
+* [Variational Knowledge Graph Reasoning](https://www.jianguoyun.com/p/Dca7zYcQq_6CBxi75YIB)    
+
+### 知识图谱表示学习
+
+* [Collaborative Knowledge Base Embedding for Recommender Systems](https://www.jianguoyun.com/p/DbqefYEQq_6CBxjP5oIB)    
+* [Improving Learning and Inference in a Large Knowledge-base using Latent Syntactic Cues](https://www.jianguoyun.com/p/Ddicc8wQq_6CBxiS6IIB)    
+* [Jointly Embedding Knowledge Graphs and Logical Rules](https://www.jianguoyun.com/p/DaKzj6UQq_6CBxiU6IIB)    
+* [Knowledge Graph Embedding by Translating on Hyperplanes](https://www.jianguoyun.com/p/DV4ATSsQq_6CBxiZ6IIB)    
+* [Knowledge Graph Representation with Jointly Structural and Textual Encoding](https://www.jianguoyun.com/p/DXGe4NMQq_6CBxia6IIB)    
+* [Knowledge Representation Learning with Entities, Attributes and Relations](https://www.jianguoyun.com/p/Dcc4fEYQq_6CBxic6IIB)    
+* [Learning Entity and Relation Embeddings for Knowledge Graph Completion](https://www.jianguoyun.com/p/DdWCXEUQq_6CBxif6IIB)    
+* [Translating Embeddings for Modeling Multi-relational Data](https://www.jianguoyun.com/p/DdJ3k9cQq_6CBxih6IIB)    
+
+## 知识存储
+
+* [图数据库 中文第二版](https://www.jianguoyun.com/p/DYGrTMAQq_6CBxih6YIB)    
+* [Neo4j权威指南](https://www.jianguoyun.com/p/DVVfZcsQq_6CBxil6YIB)    
+* [实战 将数据存进Neo4j](https://zhuanlan.zhihu.com/p/48708750)    
